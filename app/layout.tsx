@@ -1,8 +1,11 @@
-import type { Metadata } from "next";
-import { Montserrat} from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
+import { Header } from "@components";
+
+import type { Metadata } from "next";
 
 const montserratFont = Montserrat({
+  weight: ['100', '200', '300', '400', '500', '600', '700'],
   subsets: ["latin"],
 });
 
@@ -19,8 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${montserratFont.className} bg-backgroundDark container mx-auto`}
+        className={` ${montserratFont.className} bg-backgroundDark container mx-auto relative`}
       >
+        <Header />
         {children}
       </body>
     </html>

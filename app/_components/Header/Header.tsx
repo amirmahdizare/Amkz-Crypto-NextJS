@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import { Button } from '@components'
 
 export const Header = () => {
     return (
@@ -19,7 +20,7 @@ export const Header = () => {
             </nav>
 
 
-            <button className='bg-primary rounded-xl px-6 py-2 text-white'>Login</button>
+            <Button />
 
         </header>
     )

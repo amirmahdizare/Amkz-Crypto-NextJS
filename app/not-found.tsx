@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from './_components'
+import { Button } from '@components'
 import Link from 'next/link'
 
 export default function () {

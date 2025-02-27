@@ -19,6 +19,7 @@ export const DesktopNavbar = () => {
     return (
         <nav className=' flex flex-row gap-5 items-center'>
             {links.map(link => <Link
+                key={link.route}
                 className={pathname == link.route ? 'text-primary font-semibold' : 'text-white'}
                 href={link.route}>
                 {link.title}

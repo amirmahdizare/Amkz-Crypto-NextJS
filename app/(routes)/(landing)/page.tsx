@@ -7,7 +7,7 @@ export default function page() {
     return (
         <div className='relative'>
 
-            <Image alt='bg' src={bg} className='absolute -top-4 left-1/2 -translate-x-1/2 -z-10' />
+            <Image sizes='90vw' alt='bg' src={bg} className='absolute -top-20 left-1/2 -translate-x-1/2 -z-10  transition-all duration-500 ' />
 
             <HeroSection/>
            

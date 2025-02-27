@@ -28,6 +28,7 @@ export default {
         translateUp1: 'translateUp .5s ease backwards',
         translateUp2: 'translateUp .5s .25s  backwards',
         translateUp3: 'translateUp .5s .5s backwards',
+        translateUp4: 'translateUp .5s .75s backwards',
 
 
       },

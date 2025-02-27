@@ -23,9 +23,9 @@ export const CryptoItem = ({ icon, symbol, fullname, currentValue, changePercent
                 </div>
 
 
-                <Link href={`/trade/${symbol.toLocaleLowerCase()}`} className='rounded-full text-[#B6B6B6] bg-[#261337]    flex flex-row justify-center items-center shrink-0 w-12 aspect-square'>
+                <div  className='rounded-full text-[#B6B6B6] bg-[#261337]    flex flex-row justify-center items-center shrink-0 w-12 aspect-square'>
                     <ArrowUpRightIcon className='size-8'/>
-                </Link>
+                </div>
 
             </div>
 

@@ -20,7 +20,6 @@
     ],
     "baseUrl": "./app",
     "paths": {
-      "@/*": ["./*"],
       "@components":["./_components/index.ts"],
       "@components/*":["./_components/*"],
       "@images/*":["./_assets/images/*"]

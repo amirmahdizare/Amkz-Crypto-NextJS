@@ -24,6 +24,10 @@ export default {
           '100%': { transform: 'translateY(0)', opacity: '1' }
         }
       },
+      fontSize:{
+        mobile:'12px',
+        desktop:'16px'
+      },
       animation: {
         translateUp1: 'translateUp .5s ease backwards',
         translateUp2: 'translateUp .5s .25s  backwards',

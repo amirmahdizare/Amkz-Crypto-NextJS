@@ -20,9 +20,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="text-mobile lg:text-desktop">
       <body
-        className={` ${montserratFont.className} bg-backgroundDark container mx-auto relative px-2`}
+        className={` ${montserratFont.className} bg-backgroundDark container mx-auto relative px-4 `}
       >
         <Header />
         {children}

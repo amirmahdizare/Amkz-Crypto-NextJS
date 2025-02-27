@@ -5,7 +5,7 @@ import { DesktopNavbar } from './components/DesktopNavbar'
 
 export const Header = () => {
     return (
-        <header className='flex flex-row gap-2 items-center justify-between p-4 sticky top-0'>
+        <header className='flex flex-row gap-2 items-center justify-between p-3  top-0 '>
 
             <div className='text-xl font-bold flex flex-row gap-0.5 items-center'>
                 <span className='text-white'>Amkz</span>

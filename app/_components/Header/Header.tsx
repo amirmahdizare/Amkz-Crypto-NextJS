@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import { Button } from '@components'
+import { DesktopNavbar } from './components/DesktopNavbar'
 
 export const Header = () => {
     return (
@@ -11,13 +12,7 @@ export const Header = () => {
                 <span className='text-primary'>Crypto</span>
             </div>
 
-
-            <nav className='text-white flex flex-row gap-5 items-center'>
-                <Link href={'/'}>Home</Link>
-                <Link href={'/trade'}>Trade</Link>
-                <Link href={'/market'}>Market</Link>
-                <Link href={'/blog'}>Blog</Link>
-            </nav>
+            <DesktopNavbar />
 
 
             <Button >

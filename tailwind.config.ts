@@ -10,7 +10,12 @@ export default {
     extend: {
       colors: {
         backgroundDark: '#11011E',
-        primary:'#0FAE96'
+        primary: '#0FAE96',
+        'border-color': 'rgba(255,255,255,0.05)',
+        'text-1': "#ECF1F0",
+        'gray-1': "#B6B6B6",
+        'black-1': "1D1429",
+        'gray-2': "#C6C6C6"
       },
       keyframes: {
         translateUp: {

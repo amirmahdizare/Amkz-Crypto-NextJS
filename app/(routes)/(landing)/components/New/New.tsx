@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export const New = () => {
     return (
-        <div className='rounded-xl border border-border-color flex flex-row gap-4 py-5  px-8 lg:px-16 items-center  justify-between animate-translateUp animation-delay-1200 relative'>
+        <div className='rounded-xl border border-border-color flex flex-col lg:flex-row gap-6 py-5  px-8 lg:px-16 lg:items-center  justify-between animate-translateUp animation-delay-1200 relative'>
 
             <div className='flex flex-col gap-3 items-start'>
                 <span className='text-text-1 text-2xl font-semibold'>New In Cryptocurrency?</span>

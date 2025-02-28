@@ -20,8 +20,11 @@ export default {
       keyframes: {
         translateUp: {
           '0%': { transform: 'translateY(200px)', opacity: '0', },
-          // '75%': { height: '1.25rem', opacity: '0.75' },
           '100%': { transform: 'translateY(0)', opacity: '1' }
+        },
+        translateLeft: {
+          '0%': { transform: 'translateX(200px)', opacity: '0', },
+          '100%': { transform: 'translateX(0)', opacity: '1' }
         }
       },
       fontSize:{
@@ -33,10 +36,15 @@ export default {
         translateUp2: 'translateUp .5s .25s  backwards',
         translateUp3: 'translateUp .5s .5s backwards',
         translateUp4: 'translateUp .5s .75s backwards',
+        translateUp: 'translateUp .5s .75s backwards',
+        translateLeft: 'translateLeft .5s ease backwards',
 
 
       },
+
     },
   },
-  plugins: [],
+  plugins: [
+    require("tailwindcss-animation-delay"),
+  ],
 } satisfies Config;

@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="text-mobile lg:text-desktop">
       <body
-        className={` ${montserratFont.className} bg-backgroundDark container mx-auto relative px-4 `}
+        className={` ${montserratFont.className} bg-backgroundDark container mx-auto relative px-4 pb-4`}
       >
         <Header />
         {children}

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import bg  from '@images/bg-shadow.png'
-import { Features, HeroSection , MarketTrend } from './components'
+import { Features, HeroSection , MarketTrend, New } from './components'
 
 export default function page() {
     return (
@@ -14,6 +14,8 @@ export default function page() {
             <MarketTrend />
 
             <Features/>
+
+            <New/>
            
         </div>
     )

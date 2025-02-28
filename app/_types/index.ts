@@ -5,3 +5,9 @@ export interface FeatureType {
     title: string,
     description: string
 }
+
+export interface StepType {
+    icon: StaticImageData,
+    title: string,
+    description: string
+}

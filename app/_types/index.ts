@@ -11,3 +11,11 @@ export interface StepType {
     title: string,
     description: string
 }
+
+export interface BlogType {
+    id:string,
+    img:StaticImageData,
+    title:string,
+    tag:string,
+    summary?:string
+}

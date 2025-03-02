@@ -1,6 +1,6 @@
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-import { Header } from "@components";
+import { Footer, Header } from "@components";
 
 import type { Metadata } from "next";
 
@@ -26,6 +26,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Footer/>
       </body>
     </html>
   );

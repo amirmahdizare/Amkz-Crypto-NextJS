@@ -6,7 +6,7 @@ import { Logo } from './components/Logo'
 
 export const Header = () => {
     return (
-        <header className='flex flex-row gap-2 items-center justify-between p-3 py-2 backdrop-blur-lg sticky top-0 z-[1] '>
+        <header className='flex flex-row gap-2 items-center justify-between p-3 py-2 backdrop-blur-lg fixed right-0 lg:sticky w-full top-0 z-[1] '>
 
             <Menu />
 

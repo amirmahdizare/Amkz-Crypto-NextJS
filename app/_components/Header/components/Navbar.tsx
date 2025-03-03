@@ -12,15 +12,15 @@ const links: Array<{ title: string, route: string }> = [
     // { title: "Blog", route: '/blog' },
 ]
 
-export const DesktopNavbar = () => {
+export const Navbar = () => {
 
     const pathname = usePathname()
 
     return (
-        <nav className='hidden lg:flex flex-row gap-5 items-center '>
+        <nav className=' flex flex-col lg:flex-row gap-5 items-start lg:items-center '>
             {links.map(link => <Link
                 key={link.route}
-                className={pathname == link.route ? 'text-primary font-semibold' : 'text-white'}
+                className={pathname == link.route ? 'text-primary font-semibold' : 'text-black lg:text-white'}
                 href={link.route}>
                 {link.title}
             </Link>)}

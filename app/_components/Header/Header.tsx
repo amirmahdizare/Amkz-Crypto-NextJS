@@ -6,7 +6,7 @@ import { Logo } from './components/Logo'
 
 export const Header = () => {
     return (
-        <header className='flex flex-row gap-2 items-center justify-between p-3  top-0 '>
+        <header className='flex flex-row gap-2 items-center justify-between p-3 py-2 backdrop-blur-lg sticky top-0 z-[1] '>
 
             <Menu />
 
@@ -15,7 +15,7 @@ export const Header = () => {
 
 
             <Link href={'https://amkz.dev'} target='_blank' className='order-3'>
-                <Button >
+                <Button  >
                     Login
                 </Button>
             </Link>
